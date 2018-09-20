@@ -8,11 +8,11 @@ The kernel is based on the kernel provided by NXP."
 require recipes-kernel/linux/linux-imx.inc
 require recipes-kernel/linux/linux-dtb.inc
 
-SRC_URI = "git://github.com/embeddedartists/linux-imx.git;protocol=git;branch=${SRCBRANCH}"
+SRC_URI = "git://github.com/jameelkareem-ea/linux-imx.git;protocol=git;branch=${SRCBRANCH}"
 
 LOCALVERSION = "-1.0.0"
 SRCBRANCH = "ea_tmp_4.9.11_1.0.0"
-SRCREV = "3a05df51c6d9ddca267d213b9adf61c835382237"
+SRCREV = "017269440399655ebde4a385ad3d5c1287cfa5b4"
 DEPENDS += "lzop-native bc-native"
 
 

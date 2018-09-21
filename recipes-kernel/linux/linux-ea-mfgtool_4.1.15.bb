@@ -5,7 +5,7 @@ require recipes-kernel/linux/linux-imx.inc
 require recipes-kernel/linux/linux-dtb.inc
 
 
-SRC_URI = "git://github.com/embeddedartists/linux-imx.git;protocol=git;branch=${SRCBRANCH}"
+SRC_URI = "git://github.com/jameelkareem-ea/linux-imx.git;protocol=git;branch=${SRCBRANCH}"
 
 LOCALVERSION = "-2.0.3"
 SRCBRANCH = "ea_4.1.15_2.0.0"
